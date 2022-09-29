@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header{
+    width: 100%;
+    background-color: #cccccc;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    margin: auto;
+   
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+
+}
+
+header ul li a{
+    text-decoration: none;
+    display: flex;
+
+}
+
+header ul li{
+    list-style-type: none;
+    
+}
+
+main{
+    margin: auto;
+   margin-top: 80px;
+   width: 1140px;
+  margin-bottom: 20px;
+}
+
+.lista{
+    color: #a90de7;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mudaracor{
+    color: black;
+}
+
+footer{
+  background-color: #6BE20E;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.lado{
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+  
+    
+}
+
+.ficalado{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    margin-top: 30px;
+
+}
+
+button{
+    color: black;
+    background: #6BE20E;
+    border: 2px solid #6BE20E ;
+    border-radius: 4px;
+    background-color:#6BE20E;
+    width: 128px;
+    height: 40px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 320px;
+    height: 50px;
+   
+}
+
+select{
+    width: 320px;
+    height: 50px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.ficalado p{
+    padding: 10px;
+}

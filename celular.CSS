@@ -1,0 +1,16 @@
+/* celular */
+@media(max-width:400px ){
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lado{
+        flex-direction: column;
+
+    }
+
+    footer{
+        margin-top: 100px;
+    }
+}
